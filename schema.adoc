@@ -1,7 +1,5 @@
-=== schema.adoc https://zoom.us/j/977734499
+=== schema.adoc https://schema.org/version/8.0/schema-all.html
 SEE ALSO json-ld.adoc +
-https://wiki.refeds.org/display/STAN/Schema +
-schema-discuss@lists.refeds.org +
 https://github.internet2.edu/api-schema
 
 - - -
