@@ -56,23 +56,6 @@ _2020-01-14 12:50 schema across TAP components_
 ? json schema vs xml (midPoint)
 
 - - -
-_2019-08-29 16:00 Refeds Schema Editorial Board meeting_
-
-http://macedir.org/specs/internet2-mace-dir-group-membership-200507_files/memb-041107.jpg is missing
-
-- - -
-_2015-12-04 10:36 references and links_
-
-https://schema.org/version/8.0/schema-all.html <= latest schema.org specification
-https://apisyouwonthate.com/blog/openapi-v31-and-json-schema-2019-09 +
-https://stoplight.io/open-source/spectral/ +
-https://voperson.org/ +
-https://lists.refeds.org/sympa/info/schema-discuss +
-https://wiki.refeds.org/display/STAN/Standards-and-Specs+Home +
-https://docs.google.com/document/d/1U-s5HjNkWUtIoLAHjRcUZljBWEdHQIupk-KscAEIbFA/edit  <= Schema for Courses +
-https://drive.google.com/drive/u/0/my-drive  <= Schema.org: Online Courses
-
-- - -
 _2015-12-04 10:40 invitation to learning extensions at schema.org_
 
 ```
