@@ -44,8 +44,8 @@ https://wiki.evolveum.com/display/midPoint/Prism+Schema <= related
 - - -
 _2020-04-08 15:39 OpenAPI 3.1 and JSON Schema-09_
 
-https://apisyouwonthate.com/blog/openapi-v31-and-json-schema-2019-09 <= new phil sturgeon article celebrating convergence
-https://stoplight.io/open-source/spectral/ <= Spectral, an Open Source JSON/YAML Linter
+https://apisyouwonthate.com/blog/openapi-v31-and-json-schema-2019-09 <= new phil sturgeon article celebrating convergence +
+https://stoplight.io/open-source/spectral/ <= Spectral, an Open Source JSON/YAML Linter +
 https://swagger.io/specification/ <= version 3.0.3
 
 - - -
