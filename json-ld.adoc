@@ -1,0 +1,154 @@
+=== json-ld.adoc https://github.com/search?q=org%3Aw3c+json-ld&unscoped_q=json-ld
+SEE ALSO schema.adoc
+
+- - -
+_2020-05-21 18:01 json-ld 1.1_
+
+https://datalanguage.com/blog/publishing-json-ld-for-developers +
+https://json-ld.org/playground/ +
+
+https://w3c.github.io/json-ld-syntax/ <= JSON-LD 1.1 Specification +
+https://github.com/w3c/json-ld-wg <= JSON-LD Working Group home +
+https://github.com/digitalbazaar/pyld <= full featured implementation of JSON-LD in Python +
+https://nystudio107.com/blog/annotated-json-ld-structured-data-examples <= ! +
+
+- - -
+_2017-07-02 16:26  Swagger JSON Docs & Linked Data_
+
+```
+Kingsley Idehen kidehen@openlinksw.com via listhub.w3.org
+2:48 PM (1 hour ago)
+
+to Alasdair, public-lod, Semantic, Hydra, public-rww
+On 6/30/17 12:17 PM, Kingsley Idehen wrote:
+> On 6/29/17 7:03 AM, Gray, Alasdair J G wrote:
+>> Hi Martynas
+>>
+>> The Linked Data Templates look like a really interesting way of
+>> getting a read/write data web. However, I’m unclear whether you
+>> support data returned in non-RDF serialisations, e.g. CSV, or JSON.
+>>
+>> In the Open PHACTS Discovery Platform [1] we used the Linked Data API
+>> to provide an abstraction for our web (HTML/CSS/JSON) app developers
+>> so that they did not need to be proficient in Semantic Web
+>> technologies (RDF, OWL). This greatly improved the efficiency of the
+>> development of our project as it meant our app developers could focus
+>> on what they were good at and the semantic web technology was
+>> exploited but hidden [2].
+>>
+>> I have more recently be using the Linked Data API approach in
+>> different projects where we are starting to see a need for being able
+>> to write data, not just read it.
+>>
+>> It would be a huge limitation of the Linked Data Templates if they
+>> did not support serialising to CSV, JSON, etc.
+>>
+>> Best regards,
+>>
+>> Alasdair
+>>
+>> [1] https://dev.openphacts.org/
+>> [2] http://content.iospress.com/articles/semantic-web/sw088
+>
+> Hi Alasdair,
+>
+> Have you considered using OpenAPI (nee Swagger) to document your APIs?
+> Doing that would provide another point of intersection between "Web
+> Developers" and "Semantic Web Developers" .
+>
+>
+> [1]
+> https://medium.com/openlink-software-blog/swagger-the-api-economy-rest-linked-data-and-a-semantic-web-9d6839dae65a
+> -- Swagger, the API Economy, REST, Linked Data, and a Semantic Web
+>
+> Kingsley
+
+
+Alasdair,
+
+I've located the JSON-based Swagger doc I inquired about. Once again,
+this brings discovery to the fore i.e., adopting any combination of the
+following to aid structured data discovery:
+
+1. <link/> in <head> via @rel -- xhv:alternate or xhv:related relations
+where Swagger Doc URI identifies relation object
+
+2. <script/> -- to embed metadata as structured data islands in HTML
+
+3. Link: -- at the HTTP level emulating #1.
+
+Currently, you have <https://dev.openphacts.org/docs/2.1>, and a
+validation icon that anchored by the URI
+<https://online.swagger.io/validator/debug?url=https://dev.openphacts.org/swagger/spec/ops_2_1.json>,
+from which I can discern the Swagger Docs URI
+<https://dev.openphacts.org/swagger/spec/ops_2_1.json> .
+
+I can transform content of
+<https://dev.openphacts.org/swagger/spec/ops_2_1.json> into 5-Star
+Linked Data via the URI:
+
+<http://linkeddata.uriburner.com/about/html/https://dev.openphacts.org/swagger/spec/ops_2_1.json>
+
+I can pivot to an alternative Faceted Browsing View using
+<http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Flinkeddata.uriburner.com%2Fabout%2Fid%2Fentity%2Fhttps%2Fdev.openphacts.org%2Fswagger%2Fspec%2Fops_2_1.json>
+
+
+And then look at the description of a specific Action using
+
+<http://linkeddata.uriburner.com/describe/?url=http%3A%2F%2Flinkeddata.uriburner.com%2Fabout%2Fid%2Fentity%2Fhttps%2Fdev.openphacts.org%2Fswagger%2Fspec%2Fops_2_1.json%23~%252Fcompound~get&distinct=1>
+
+Conclusion:
+
+We just need to enhance structured data discoverability using existing
+open standards and best practices. The REST will come together naturally
+because the Web has great underlying architectural design :)
+
+--
+Regards,
+
+Kingsley Idehen
+Founder & CEO
+OpenLink Software   (Home Page: http://www.openlinksw.com)
+
+Weblogs (Blogs):
+Legacy Blog: http://www.openlinksw.com/blog/~kidehen/
+Blogspot Blog: http://kidehen.blogspot.com
+Medium Blog: https://medium.com/@kidehen
+
+Profile Pages:
+Pinterest: https://www.pinterest.com/kidehen/
+Quora: https://www.quora.com/profile/Kingsley-Uyi-Idehen
+Twitter: https://twitter.com/kidehen
+Google+: https://plus.google.com/+KingsleyIdehen/about
+LinkedIn: http://www.linkedin.com/in/kidehen
+
+Web Identities (WebID):
+Personal: http://kingsley.idehen.net/public_home/kidehen/profile.ttl#i
+        : http://id.myopenlink.net/DAV/home/KingsleyUyiIdehen/Public/kingsley.ttl#this
+```
+
+- - -
+_2017-05-13 12:53 creating json-ld context for OTTO SAML metadata_
+
+Starting Materials
+- SAML schema doc in Oxygen
+- JSON context docs in atom editor
+- Starting SAML context doc in Atom editor
+- JSON vocabulary doc
+- JSON-LD references
+
+@graph: http://json-ld.org/spec/latest/json-ld/#dfn-linked-data-graph
+
+- - -
+_2017-05-13 12:52 references and links_
+
+https://github.com/search?q=json-ld <= json-ld as seen on github
+https://github.com/antlr/grammars-v4/blob/master/idl/IDL.g4 <= Antlr grammar collection including webIdl
+https://w3c.github.io/json-ld-syntax/ <= json-ld 1.1 W3C Editor's Draft 09 May 2020 +
+https://json-ld.org/spec/latest/json-ld/   20170712 +
+http://json-ld.org/spec/latest/json-ld-api/ +
+http://json-ld.org/spec/latest/json-ld-framing/ +
+http://json-ld.org/primer/latest/ +
+https://www.w3.org/TR/json-ld/  <= JSON-LD 1.0, 2014/01/16 +
+http://json-ld.org/spec/latest/json-ld/  <= JSON-LD 1.1 draft community report 20170510: A JSON-based Serialization for Linked Data
+https://github.com/json-ld/json-ld.org

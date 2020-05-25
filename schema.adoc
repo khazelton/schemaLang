@@ -1,0 +1,126 @@
+=== schema.adoc https://zoom.us/j/977734499
+SEE ALSO json-ld.adoc +
+https://wiki.refeds.org/display/STAN/Schema +
+schema-discuss@lists.refeds.org +
+https://github.internet2.edu/api-schema
+
+- - -
+_2020-05-13 18:08 Road to Axiom_
+
+https://evolveum.com/data-provenance-milestone-1/ <= Evolveum blog post by Radovan Semancik +
+https://evolveum.com/a-road-to-axiom/ <= Evolveum blog post by Radovan Semancik
+
+- - -
+_2020-05-04 16:05 Thoughts on Axiom_
+
+Why the ongoing dissatisfaction with existing schema languages?
+
+. lack of common schema metadata
+. clunky extensibility
+. lack of human-friendly syntax
+. lack of libraries for programmatic handling
+
+Look at Evolveum complaints
+
+https://j.mp/evosow <= Item 1, April 28, 2020: Evolveum on schema
+
+Suggestion: JSON-LD's @context gives a perfect way to avoid collisions in extensions
+
+https://www.w3.org/TR/json-ld11/
+
+- - -
+_2020-04-29 12:37 alignment of COmanage and Minimal Registry Person_
+
+corePersonJsonSchema.json <= started with JSON Schema for Minimal Registry Person
+
+- - -
+_2020-04-23 15:17 DW (Incl FM) Schema_
+
+
+- - -
+_2020-04-21 09:33 Evolveum Axiom Schema Language proposal_
+
+https://docs.evolveum.com/midpoint/midprivacy/phases/01-data-provenance-prototype/axiom/
+https://wiki.evolveum.com/display/midPoint/Prism+Schema <= related
+
+- - -
+_2020-04-08 15:39 OpenAPI 3.1 and JSON Schema-09_
+
+https://apisyouwonthate.com/blog/openapi-v31-and-json-schema-2019-09 <= new phil sturgeon article celebrating convergence
+https://stoplight.io/open-source/spectral/ <= Spectral, an Open Source JSON/YAML Linter
+https://swagger.io/specification/ <= version 3.0.3
+
+- - -
+_2020-01-14 12:50 schema across TAP components_
+
+? json schema vs xml (midPoint)
+
+- - -
+_2019-08-29 16:00 Refeds Schema Editorial Board meeting_
+
+http://macedir.org/specs/internet2-mace-dir-group-membership-200507_files/memb-041107.jpg is missing
+
+- - -
+_2015-12-04 10:36 references and links_
+
+https://schema.org/version/8.0/schema-all.html <= latest schema.org specification
+https://apisyouwonthate.com/blog/openapi-v31-and-json-schema-2019-09 +
+https://stoplight.io/open-source/spectral/ +
+https://voperson.org/ +
+https://lists.refeds.org/sympa/info/schema-discuss +
+https://wiki.refeds.org/display/STAN/Standards-and-Specs+Home +
+https://docs.google.com/document/d/1U-s5HjNkWUtIoLAHjRcUZljBWEdHQIupk-KscAEIbFA/edit  <= Schema for Courses +
+https://drive.google.com/drive/u/0/my-drive  <= Schema.org: Online Courses
+
+- - -
+_2015-12-04 10:40 invitation to learning extensions at schema.org_
+
+```
+Phil Barker phil.barker@hw.ac.uk via listhub.w3.org
+3:32 AM (7 hours ago)
+to schema.org, lrmi, DC-EDUCATION, kh@gm
+
+Hello all, this is essentially an invite to get involved with building a schema extension for educational courses, by way of a description of some of the work so far.
+5
+I'm sending this primarily to the schema.org mail list, but cc-ing to LRMI and DC-Education where I hope there will also be some interest. (In case you don't know, LRMI = Learning Resource Metadata Initiative, part of DCMI. I'm a member of the task group, you are welcome to get involved if it sounds interesting[1].)
+
+About a year ago there was a flurry of discussion about wanting to markup descriptions of courses in schema [2]. Vicky Tardiff-Holland produced a proposal [3] which we discussed in LRMI and elsewhere as a result of which various suggestions were and comments were added to that proposal.
+
+I also led some work in LRMI around scope, use cases, requirements, existing data; which I hoped would lead to some validating/refining the proposal by some example data that could be used to demonstrate that it met the use cases [4].
+
+I am up for another push on courses. I share the doc I was working on [4] in the hope that it is good starting point. It's a bit long, so here is an overview of what it contains:
+
+- scope: concerning discovery of any type of educational course (online/offline, long/short, scheduled/on-demand) Educational course defined as "some sequence of events and/or creative works which aims to build knowledge, competence or ability of learners". (out of scope: information about students and their progression etc; information needed internally for course management rather than discovery)
+
+- comparators: a review of some established ways of sharing similar data
+
+- use cases
+- requirements arising from the use cases
+
+- mapping to some existing examples. I used hypothes.is[5] to annotate existing web pages that describe different types of course, e.g. from Coursera or a University, tagging the requirement that the data was relevant to. Here's an example of a page as tagged: https://goo.gl/1IWjOh (click on a yellow highlight to show the relevant requirement as a comment with a tag)
+hypothes.is aggregates the selected information for each tag, to give a list of the information relevant to each use case, for example https://hypothes.is/stream?q=tag:%27reqC%27
+
+I think the next step would be to review the use cases and requirements in light of some of the observations from the mapping, and to look again at the proposal to see how it reflects the data available/required. But first I want to try to get more people involved, see whether anyone has a better idea for how to progress, or if anyone wants to check the work so far and help move it forward.
+
+I'm aware the docs and discussions so far around schema for courses are a scattered set of scraps and drafts. If there is enough interest it would be really useful to have it in one place.
+
+Phil
+
+1. Task group at http://wiki.dublincore.org/index.php/AB-Comm/ed/LRMI/TG , specs at http://dublincore.org/dcx/lrmi-terms/1.1/ and general info at http://www.lrmi.net/
+2. See issue 195 on github https://github.com/schemaorg/schemaorg/issues/195
+3. https://docs.google.com/document/d/12YWjLzZC8FiTiOwSAETRIEozeqZdn6O8a4fgqK4t5Ss/edit#
+4. https://docs.google.com/document/d/1U-s5HjNkWUtIoLAHjRcUZljBWEdHQIupk-KscAEIbFA/edit#
+5. https://hypothes.is/
+--
+Phil Barker           @philbarker
+LRMI, Cetis, ICBL     http://people.pjjk.net/phil
+Heriot-Watt University
+
+Workflow: http://www.icbl.hw.ac.uk/~philb/workflow/
+```
+
+- - -
+
+We invite research leaders and ambitious early career researchers to join us in leading and driving research in key inter-disciplinary themes. Please see www.hw.ac.uk/researchleaders for further information and how to apply.
+
+Heriot-Watt University is a Scottish charity registered under charity number SC000278.
