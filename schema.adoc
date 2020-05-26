@@ -5,6 +5,12 @@ https://github.internet2.edu/api-schema
 - - -
 _2020-05-25 22:01 JSON-LD & RDF & OWL_
 
+
+https://github.com/VirtualFlyBrain/neo4j2owl <= !! A model approach to building information models madison we+
+https://github.com/VirtualFlyBrain/VFB_neo4j +
+https://neo4j.com/graphgist/books-management-graph +
+https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
+https://neo4j.com/blog/neo4j-rdf-graph-database-reasoning-engine/ +
 https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate <= Another Horizon 2020-funded project +
 https://elixir-europe.org/platforms +
 https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
