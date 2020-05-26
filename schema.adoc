@@ -21,7 +21,11 @@ https://elixir-europe.org/platforms +
 https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
 https://www.w3.org/2013/dwbp/wiki/RDF_AND_JSON-LD_UseCases <= RDF and JSON-LD use cases
 
-Start w Neo4J for information model drafting; save to RDF(a); convert to JSON-LD
+* Start w Neo4J for information model drafting
+** Could this be the native Axiom representation?
+* Migrate up to OWL (using neo4j2owl)
+* Save to RDF(a) (trivial re-representation, "save as")
+* Re-express RDF as JSON-LD (From RDF to JSON-LD, https://w3c.github.io/json-ld-api/tests/fromRdf-manifest.html)
 
 https://www.researchgate.net/publication/266388960_Semantic_Web_and_Big_Data_meets_Applied_Ontology_The_Ontology_Summit_2014 +
 https://www.w3.org/TR/vocab-dcat-2/ <= Data Catalog Vocabulary v2 +
