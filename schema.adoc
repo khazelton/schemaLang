@@ -11,7 +11,7 @@ https://schema.org/version/8.0/schema-all.html
 _2020-05-25 22:01 JSON-LD & RDF & OWL_
 
 
-https://github.com/VirtualFlyBrain/neo4j2owl <= !! A model approach to building information models madison we+
+https://github.com/VirtualFlyBrain/neo4j2owl <= !! A model approach to building information models +
 https://github.com/VirtualFlyBrain/VFB_neo4j +
 https://neo4j.com/graphgist/books-management-graph +
 https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
