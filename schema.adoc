@@ -14,7 +14,7 @@ https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
 https://neo4j.com/blog/neo4j-rdf-graph-database-reasoning-engine/ +
 https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate <= Another Horizon 2020-funded project +
 https://elixir-europe.org/platforms +
-https://drive.google.com/file/d/1DNugP5P3qmw1YHqcD9ZS4ogi34vCVtjU/view <= annotated collection of Elixir Core Data Resources +
+https://drive.google.com/file/d/1DNugP5P3qmw1YHqcD9ZS4ogi34vCVtjU/view <= Selected Elixir Core Data Resources +
 -  https://www.uniprot.org/ <= protein sequence and functional information +
 -  https://string-db.org/cgi/input.pl <= Protein-Protein Interaction Networks, Functional Enrichment Analysis +
 -  https://www.ebi.ac.uk/pdbe/ <= collection, org & dissemination of data on biological macromolecular structures +
