@@ -3,6 +3,11 @@ SEE ALSO json-ld.adoc +
 https://github.internet2.edu/api-schema
 
 - - -
+_2020-05-25 21:49 IM and DM RFC_
+
+https://tools.ietf.org/html/rfc3444 <= On the difference between Information Models and Data Models
+
+- - -
 _2020-05-13 18:08 Road to Axiom_
 
 https://evolveum.com/data-provenance-milestone-1/ <= Evolveum blog post by Radovan Semancik +
