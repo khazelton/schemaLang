@@ -17,7 +17,7 @@ https://elixir-europe.org/platforms +
 https://drive.google.com/file/d/1DNugP5P3qmw1YHqcD9ZS4ogi34vCVtjU/view <= annotated collection of Elixir Core Data Resources +
 -  https://www.uniprot.org/ <= protein sequence and functional information +
 -  https://string-db.org/cgi/input.pl <= Protein-Protein Interaction Networks, Functional Enrichment Analysis +
--  https://www.ebi.ac.uk/pdbe/ <= collection, organisation and dissemination of data on biological macromolecular structures +
+-  https://www.ebi.ac.uk/pdbe/ <= collection, org & dissemination of data on biological macromolecular structures +
 -  https://www.ebi.ac.uk/intact/ <= free, open source database system and analysis tools for molecular interaction data +
 -  https://www.proteinatlas.org/ <= Human protein atlas +
 -  https://europepmc.org/ <= Europe PMC +
