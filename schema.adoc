@@ -15,15 +15,15 @@ https://neo4j.com/blog/neo4j-rdf-graph-database-reasoning-engine/ +
 https://elixir-europe.org/about-us/how-funded/eu-projects/excelerate <= Another Horizon 2020-funded project +
 https://elixir-europe.org/platforms +
 https://drive.google.com/file/d/1DNugP5P3qmw1YHqcD9ZS4ogi34vCVtjU/view <= annotated collection of Elixir Core Data Resources +
-  https://www.uniprot.org/ <= protein sequence and functional information +
-  https://string-db.org/cgi/input.pl <= Protein-Protein Interaction Networks, Functional Enrichment Analysis +
-  https://www.ebi.ac.uk/pdbe/ <= collection, organisation and dissemination of data on biological macromolecular structures +
-  https://www.ebi.ac.uk/intact/ <= free, open source database system and analysis tools for molecular interaction data +
-  https://www.proteinatlas.org/ <= Human protein atlas +
-  https://europepmc.org/ <= Europe PMC +
-  https://europepmc.org/About <= open science platform for access to a worldwide collection of life science pubs +
-  https://www.ebi.ac.uk/chebi/ <= Chemical Entities of Biological Interest +
-  https://www.brenda-enzymes.org/ <= Comprehensive Enzyme Information System +
+-  https://www.uniprot.org/ <= protein sequence and functional information +
+-  https://string-db.org/cgi/input.pl <= Protein-Protein Interaction Networks, Functional Enrichment Analysis +
+-  https://www.ebi.ac.uk/pdbe/ <= collection, organisation and dissemination of data on biological macromolecular structures +
+-  https://www.ebi.ac.uk/intact/ <= free, open source database system and analysis tools for molecular interaction data +
+-  https://www.proteinatlas.org/ <= Human protein atlas +
+-  https://europepmc.org/ <= Europe PMC +
+-  https://europepmc.org/About <= open science platform for access to a worldwide collection of life science pubs +
+-  https://www.ebi.ac.uk/chebi/ <= Chemical Entities of Biological Interest +
+-  https://www.brenda-enzymes.org/ <= Comprehensive Enzyme Information System +
   
 https://www.slideshare.net/thesimonjupp/ontologies-neo4jgraphworkshopberlin +
 https://www.w3.org/2013/dwbp/wiki/RDF_AND_JSON-LD_UseCases <= RDF and JSON-LD use cases
