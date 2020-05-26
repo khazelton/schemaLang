@@ -8,7 +8,8 @@ _2020-05-25 22:01 JSON-LD & RDF & OWL_
 https://www.w3.org/2013/dwbp/wiki/RDF_AND_JSON-LD_UseCases <= RDF and JSON-LD use cases
 
 Start w OWL for information model; save to RDF(a); convert to JSON-LD +
-https://www.researchgate.net/publication/266388960_Semantic_Web_and_Big_Data_meets_Applied_Ontology_The_Ontology_Summit_2014
+https://www.researchgate.net/publication/266388960_Semantic_Web_and_Big_Data_meets_Applied_Ontology_The_Ontology_Summit_2014 +
+https://www.w3.org/TR/vocab-dcat-2/ <= Data Catalog Vocabulary v2
 
 - - -
 _2020-05-25 21:49 IM and DM RFC_
