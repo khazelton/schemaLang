@@ -9,7 +9,9 @@ https://www.w3.org/2013/dwbp/wiki/RDF_AND_JSON-LD_UseCases <= RDF and JSON-LD us
 
 Start w OWL for information model; save to RDF(a); convert to JSON-LD +
 https://www.researchgate.net/publication/266388960_Semantic_Web_and_Big_Data_meets_Applied_Ontology_The_Ontology_Summit_2014 +
-https://www.w3.org/TR/vocab-dcat-2/ <= Data Catalog Vocabulary v2
+https://www.w3.org/TR/vocab-dcat-2/ <= Data Catalog Vocabulary v2 +
+https://niem.github.io/reference/domain-modeling-guide/content/ +
+https://www.niem.gov/tools-catalog
 
 - - -
 _2020-05-25 21:49 IM and DM RFC_
