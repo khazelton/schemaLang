@@ -1,6 +1,11 @@
-=== schema.adoc https://schema.org/version/8.0/schema-all.html
+=== schema.adoc
 SEE ALSO json-ld.adoc +
 https://github.internet2.edu/api-schema
+
+- - -
+_2020-05-26 08:05 Schema.org as reference point_
+
+https://schema.org/version/8.0/schema-all.html
 
 - - -
 _2020-05-25 22:01 JSON-LD & RDF & OWL_
