@@ -5,9 +5,9 @@ https://github.internet2.edu/api-schema
 - - -
 _2020-05-26 22:18 Axiom constructs to OWL entities and properties_
 
-link:https://docs.evolveum.com/midpoint/midprivacy/phases/01-data-provenance-prototype/axiom/[Axiom] defines five basic concepts for data modeling <--> Closest OWL counterparts 
+link:https://docs.evolveum.com/midpoint/midprivacy/phases/01-data-provenance-prototype/axiom/[Axiom] defines five basic concepts for data modeling <--> Closest link:https://www.w3.org/TR/owl2-manchester-syntax/[OWL] counterparts 
 
-objects <--> entities +
+objects <--> entities +ink:https://www.w3.org/TR/owl2-manchester-syntax/
 properties <--> object properties, data properties ? +
 containers <--> DAG fragments ? +
 object references <--> entity IRIs +
