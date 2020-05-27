@@ -5,12 +5,13 @@ https://github.internet2.edu/api-schema
 - - -
 _2020-05-26 22:18 Axiom constructs to OWL entities and properties_
 
-Axiom defines five basic concepts for data modeling - 
-objects, 
-properties, 
-containers, 
-object references and 
-value metadata.
+Axiom defines five basic concepts for data modeling
+
+objects <--> entities
+properties <--> object properties, data properties ?
+containers <--> DAG fragments ?
+object references <--> entity IRIs
+value metadata <--> simple property ?
 
 
 
