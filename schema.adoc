@@ -3,6 +3,18 @@ SEE ALSO json-ld.adoc +
 https://github.internet2.edu/api-schema
 
 - - -
+_2020-05-26 22:18 Axiom constructs to OWL entities and properties_
+
+Axiom defines five basic concepts for data modeling - 
+objects, 
+properties, 
+containers, 
+object references and 
+value metadata.
+
+
+
+- - -
 _2020-05-26 10:27 JSON-LD & RDF & OWL_
 
 
