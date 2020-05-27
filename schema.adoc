@@ -1,3 +1,20 @@
+= Internet2 Trust and Identity Schema
+
+:Email:     hazelton@internet2.edu
+:Date:      2020-05-27
+:Revision:  00
+:SelfLink:  https://github.internet2.edu/api-schema/person
+:Editor:    Keith Hazelton
+:Email:     hazelton@internet2.edu
+
+[INFO]
+====
+Revision: {Revision} +
+{Date} +
+Self-link: {SelfLink} +
+Editor: {Editor}, {Email}
+====
+
 === schema.adoc
 SEE ALSO json-ld.adoc +
 https://github.internet2.edu/api-schema
