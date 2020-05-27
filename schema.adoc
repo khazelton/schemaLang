@@ -1,4 +1,6 @@
-= Internet2 Trust and Identity Schema
+== schema.adoc
+SEE ALSO json-ld.adoc +
+https://github.internet2.edu/api-schema
 
 :Email:     hazelton@internet2.edu
 :Date:      2020-05-27
@@ -15,9 +17,6 @@ Self-link: {SelfLink} +
 Editor: {Editor}, {Email}
 ====
 
-=== schema.adoc
-SEE ALSO json-ld.adoc +
-https://github.internet2.edu/api-schema
 
 - - -
 _2020-05-26 22:18 Axiom constructs to OWL entities and properties_
