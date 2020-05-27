@@ -100,7 +100,7 @@ see icpData.adoc
 - - -
 _2020-04-21 09:33 Evolveum Axiom Schema Language proposal_
 
-https://docs.evolveum.com/midpoint/midprivacy/phases/01-data-provenance-prototype/axiom/
+https://docs.evolveum.com/midpoint/midprivacy/phases/01-data-provenance-prototype/axiom/ +
 https://wiki.evolveum.com/display/midPoint/Prism+Schema <= related
 
 - - -
