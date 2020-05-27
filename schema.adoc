@@ -7,11 +7,11 @@ _2020-05-26 22:18 Axiom constructs to OWL entities and properties_
 
 Axiom defines five basic concepts for data modeling
 
-objects <--> entities
-properties <--> object properties, data properties ?
-containers <--> DAG fragments ?
-object references <--> entity IRIs
-value metadata <--> simple property ?
+objects <--> entities +
+properties <--> object properties, data properties ? +
+containers <--> DAG fragments ? +
+object references <--> entity IRIs +
+value metadata <--> simple property ? +
 
 
 
